@@ -1,0 +1,43 @@
+.userInfo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .functions {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        object-fit: cover;
+
+        img{
+            height: 17px;
+            width: 17px;
+            cursor: pointer;
+        }
+    }
+
+    .user {
+        gap: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    
+        .userPhoto {
+            width: 4vw; /* Set a fixed width */
+            height: 4vw; /* Set a fixed height */
+            border-radius: 50%; /* Make the image circular */
+            object-fit: cover; /* Ensure the image covers the area evenly */
+        }
+    
+        h2 {
+            font-size: 20px; /* Adjust font size for h2 */
+        }
+    }
+    
+}
+
+
+
+

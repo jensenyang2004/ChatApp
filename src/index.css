@@ -7,7 +7,8 @@
 }
 
 body{
-  background-image: url("/bg2.jpg");
+  background-image: url("/bg4.jpg");
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,9 +19,9 @@ body{
 .container{
   width: 90vw;
   height: 90vh;
-  background-color: rgba(15, 14, 49, 0.591);
+  background-color: rgba(44, 44, 54, 0.456);
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 10px;
-  border: 1px solid rgba(6, 4, 33, 0.714);
+  border: 1px solid rgba(31, 28, 67, 0.714);
   display: flex;
-}
+} 
